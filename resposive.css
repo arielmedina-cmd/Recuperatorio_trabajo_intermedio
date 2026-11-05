@@ -1,0 +1,90 @@
+/* a 1260 desaparece menu nav de header y aparece lista a la derecha
+a 770 desaparece otro en header y luego hero se transforma en una columna y foter se pone en columna
+a 550 el slides se pone en columna */ 
+
+@media screen and (max-width:1247px) {
+    .cabezera-lista{
+        display: none;
+    }
+    .cabezera-buscar_boton{
+        display: none;
+    }
+    .box-izquierda-botones{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+    }
+}
+
+
+
+
+@media screen and (max-width:770px) {
+    .cabezera{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;}
+    .escondido{
+        display: flex; 
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        gap: 25px;
+    }
+    
+    .cabezera-botones-derecho{
+        display: none;   }  
+
+    .hero-box{
+    display: flex;
+    flex-direction: column;
+    padding: 0 36px;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;}
+  
+    .slides{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    height: auto;
+    padding: 0 36px;
+}
+
+    .box-izquierda{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+    gap: 20px;
+    }
+    .box-izquierda_parrafo{
+        text-align: start;
+    }
+    .box-izquierda-botones {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    width: 100%;}
+    .pie{
+    max-width: 1440px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 36px;
+    gap: 20px;
+}
+    .pie_logos-izquierda{
+        gap: 30px;
+    }
+
+}
