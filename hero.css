@@ -161,6 +161,7 @@ h2{
     padding: 8px;
     flex:1;
     background-color: var(--color-fondocuadroheader);
+    border-radius: 5px;
 }
 .slide-card-button_1{
     display: flex;
@@ -210,6 +211,7 @@ h2{
     height: 100%;
     flex:1;
     background-color: var(--color-fondocuadroheader);
+    border-radius: 5px;
 }
 .slide-card-3{
     display: flex;
@@ -221,6 +223,7 @@ h2{
     height: 100%;
     flex:1;
     background-color: var(--color-fondocuadroheader);
+    border-radius: 5px;
 }
 
 
