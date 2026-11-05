@@ -34,9 +34,7 @@ main{
 
 /* trabajamos con la primera seccion*/ 
 
-.section-1{
-    width: 100%;
-}
+
 
 .hero-box{
     display: flex;

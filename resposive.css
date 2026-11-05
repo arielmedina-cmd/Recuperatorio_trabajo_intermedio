@@ -34,7 +34,7 @@ a 550 el slides se pone en columna */
         align-items: center;
         gap: 25px;
     }
-    
+
     .cabezera-botones-derecho{
         display: none;   }  
 
@@ -45,7 +45,9 @@ a 550 el slides se pone en columna */
     justify-content: center;
     align-items: center;
     gap: 25px;}
-  
+    .box-izquierda_titulo{
+        font-size: 32px;
+    }
     .slides{
     display: flex;
     flex-direction: column;
@@ -55,6 +57,14 @@ a 550 el slides se pone en columna */
     height: auto;
     padding: 0 36px;
 }
+    h2{
+        font-size: 32px;
+    }
+
+    .slide-card h3{
+        font-size: 20px;
+        font-weight: 300;
+    }
 
     .box-izquierda{
     display: flex;
@@ -83,8 +93,20 @@ a 550 el slides se pone en columna */
     padding: 0 36px;
     gap: 20px;
 }
+    .pie{
+        margin: 20px;
+    }
     .pie_logos-izquierda{
         gap: 30px;
     }
 
+    .texto-central_texto{
+    font-size: 10px;
+    
+}
+
+    .texto-central_ancla{
+        font-size: 10px;
+        
+    }
 }
